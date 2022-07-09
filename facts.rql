@@ -1,6 +1,6 @@
 fun_fact(name: string, role: string, fact: string) := {
 SELECT * 
-FROM READ("https://github.com/KingSebastian/UsefullLinks/blob/main/facts.json") f
+FROM READ("facts.json") f
 WHERE 
     f.name like name and 
     f.role like role and 
