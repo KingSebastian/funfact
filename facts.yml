@@ -14,6 +14,3 @@ security:
   public: true
 computeClass: normal
 enabled: true
-tests:
-  - name: run_fun_fact
-    descriptions: Run the 'Fun Fact' endpoint.
