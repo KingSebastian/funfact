@@ -1,4 +1,4 @@
-facts() := {
+facts(name: string := "%") := {
 SELECT DISTINCT role
 FROM READ("https://github.com/KingSebastian/UsefullLinks/blob/main/TestSample.csv")
 };
