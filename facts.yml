@@ -7,7 +7,7 @@ metadata:
   tags:
     - fun facts
 code: rql
-declaration: fun_fact
+declaration: facts
 codeFile: facts.rql
 format: json
 security:
