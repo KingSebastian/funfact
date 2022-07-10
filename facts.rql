@@ -1,4 +1,4 @@
-fun_fact(name: string, role: string, fact: string) := {
+facts(name: string, role: string, fact: string) := {
 SELECT * 
 FROM READ("https://github.com/KingSebastian/UsefullLinks/blob/main/TestSample.csv") AS f
 WHERE 
