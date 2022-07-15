@@ -2,15 +2,18 @@
 raw: 0.9
 endpoint: GET
 metadata:
-  title: Fun facts
-  description: Retrive fun facts
+  title: All fun facts
+  description: List of fun facts.
   tags:
     - fun facts
 code: rql
-declaration: facts
-codeFile: facts.rql
+declaration: fun_facts
+codeFile: code.rql
 format: json
 security:
   public: true
 computeClass: normal
 enabled: true
+tests:
+  - name: fun_facts
+    description: Run the 'All facts' endpoint.
