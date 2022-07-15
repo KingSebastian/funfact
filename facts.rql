@@ -1,4 +1,8 @@
-facts(name: string := "%") := {
-SELECT DISTINCT role
-FROM READ("https://github.com/KingSebastian/UsefullLinks/blob/8bee3d31d7f1ec8c03237d76fcd1fb83b65e76ca/TestSample.csv")
-};
+facts := READ("https://raw.githubusercontent.com/KingSebastian/UsefullLinks/main/Sample.csv");
+
+// Number of airports per country.
+fun_fact(id: string) := {
+    SELECT FACT
+    FROM facts
+    WHERE facts.ID = id
+}
