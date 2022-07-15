@@ -8,7 +8,7 @@ metadata:
     - fun facts
 code: rql
 declaration: fun_facts
-codeFile: code.rql
+codeFile: facts.rql
 format: json
 security:
   public: true
