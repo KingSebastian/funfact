@@ -1,4 +1,4 @@
-facts := READ("https://github.com/KingSebastian/funfact/blob/master/Sample.csv");
+facts := READ_CSV("https://github.com/KingSebastian/funfact/blob/master/Sample.csv");
 
 // Number of airports per country.
 fun_fact(id: string) := {
